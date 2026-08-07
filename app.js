@@ -30,3 +30,17 @@ console.log(turt); //false
 console.log(besh); //false
 console.log(olti); //false
 console.log(yetti); //false
+
+//  agar bolsa shartni tekshirish uchun ishlatiladi.
+//  agar shart to'g'ri bo'lsa, if ichidagi kod ishlaydi.
+//   agar shart noto'g'ri bo'lsa, else ichidagi kod ishlaydi.
+// else if shartni tekshirish uchun ishlatiladi.
+// agar shart to'g'ri bo'lsa, else if ichidagi kod ishlaydi.
+//  else if bi if dan keyin bir necha marta ishlatilishi mumkin.
+if (10 == 11) {
+  console.log("Shart to'g'ri");
+} else if (10 == 12) {
+  console.log("Shart to'g'ri 2");
+} else {
+  console.log("Shart noto'g'ri");
+}
