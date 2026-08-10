@@ -69,7 +69,7 @@
 // var blalar = ["Salohiddin", "Surob", "Abdulboqi", "Javohir"];
 // console.log(blalar[2]);
 
-var yosh = 18;
+var yosh = 20;
 if (yosh == 7) {
   console.log("Birinchi Sinf");
 } else if (yosh == 8) {
@@ -83,19 +83,34 @@ if (yosh == 7) {
 } else if (yosh == 12) {
   console.log("Oltinchi Sinf");
 } else if (yosh == 13) {
-  console.log("Oltinchi Sinf");
-} else if (yosh == 14) {
   console.log("Yettinchi Sinf");
-} else if (yosh == 15) {
+} else if (yosh == 14) {
   console.log("Sakkizinchi Sinf");
-} else if (yosh == 16) {
+} else if (yosh == 15) {
   console.log("To`qqizinchi Sinf");
-} else if (yosh == 17) {
+} else if (yosh == 16) {
   console.log("O`ninchi Sinf");
-} else if (yosh == 18) {
+} else if (yosh == 17) {
   console.log("O`nbirinchi Sinf");
 } else if (yosh < 7) {
   console.log("Maktab Yoshiga yetmagan");
 } else {
   console.log("Maktab yoshidan o`ttib ketgan");
+}
+
+let son = 7;
+
+if (son % 2 === 0) {
+  console.log("Juft son");
+} else if (son % 2 === 1) {
+  console.log("Toq son");
+}
+
+let login = "admin";
+let password = "12345";
+
+if (login === "admin" && password === "12345") {
+  console.log("Kirish muvaffaqiyatli");
+} else {
+  console.log("Login yoki parol xato");
 }
