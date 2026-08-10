@@ -44,50 +44,63 @@
 // } else {
 //   console.log("Shart noto'g'ri");
 // }
-var son = 2;
+// var son = 2;
 
-function SonidarajasiniAniqlash(son) {
-  var ADaraja = son;
-  var BDaraja = son * son;
-  var CDaraja = son * son * son;
-  var DDaraja = son * son * son * son;
-  var EDaraja = son * son * son * son * son;
-  var FDaraja = son * son * son * son * son * son;
-  var GDaraja = son * son * son * son * son * son * son;
-  var HDaraja = son * son * son * son * son * son * son * son;
-  var IDaraja = son * son * son * son * son * son * son * son * son;
-  var JDaraja = son * son * son * son * son * son * son * son * son * son;
-  var KDaraja = son * son * son * son * son * son * son * son * son * son * son;
+// function SonidarajasiniAniqlash(son) {
+//   var ADaraja = son;
+//   var BDaraja = son * son;
+//   var CDaraja = son * son * son;
+//   var DDaraja = son * son * son * son;
+//   var EDaraja = son * son * son * son * son;
+//   var FDaraja = son * son * son * son * son * son;
+//   var GDaraja = son * son * son * son * son * son * son;
+//   var HDaraja = son * son * son * son * son * son * son * son;
+//   var IDaraja = son * son * son * son * son * son * son * son * son;
+//   var JDaraja = son * son * son * son * son * son * son * son * son * son;
+//   var KDaraja = son * son * son * son * son * son * son * son * son * son * son;
 
-  console.log("1-daraja: " + ADaraja);
-  console.log("2-daraja: " + BDaraja);
-  console.log("3-daraja: " + CDaraja);
-  console.log("4-daraja: " + DDaraja);
-  console.log("5-daraja: " + EDaraja);
-  console.log("6-daraja: " + FDaraja);
-  console.log("7-daraja: " + GDaraja);
-  console.log("8-daraja: " + HDaraja);
-  console.log("9-daraja: " + IDaraja);
-  console.log("10-daraja: " + JDaraja);
-  console.log("11-daraja: " + KDaraja);
+//   console.log("1-daraja: " + ADaraja);
+//   console.log("2-daraja: " + BDaraja);
+//   console.log("3-daraja: " + CDaraja);
+//   console.log("4-daraja: " + DDaraja);
+//   console.log("5-daraja: " + EDaraja);
+//   console.log("6-daraja: " + FDaraja);
+//   console.log("7-daraja: " + GDaraja);
+//   console.log("8-daraja: " + HDaraja);
+//   console.log("9-daraja: " + IDaraja);
+//   console.log("10-daraja: " + JDaraja);
+//   console.log("11-daraja: " + KDaraja);
+// }
+// SonidarajasiniAniqlash(3);
+
+// var num1 = 10;
+// var num2 = 20;
+// function SonnlarniKattasiniAniqlash(num1, num2) {
+//   if (num1 > num2) {
+//     console.log(num1 + "$" + " soni " + num2 + "$" + " sonidan katta");
+//   } else {
+//     console.log(num2 + "$" + " soni " + num1 + "$" + " sonidan katta");
+//   }
+// }
+
+// SonnlarniKattasiniAniqlash(2000, 3000);
+
+// var arr = [1, 2, 3, 4, 5];
+// function AddToArray(arr, value) {
+//   arr.push(value);
+//   console.log(arr);
+// }
+// AddToArray(arr, 8);
+
+var stringList = ["Avazidin", "Salohiddin", "Surob", "Abdulboqi", "Javohir"];
+
+function getLengths(stringList) {
+  let lengths = stringList.map((word) => word.length);
+
+  console.log(stringList[0] + ": " + lengths[0]);
+  console.log(stringList[1] + ": " + lengths[1]);
+  console.log(stringList[2] + ": " + lengths[2]);
+  console.log(stringList[3] + ": " + lengths[3]);
+  console.log(stringList[4] + ": " + lengths[4]);
 }
-SonidarajasiniAniqlash(3);
-
-var num1 = 10;
-var num2 = 20;
-function SonnlarniKattasiniAniqlash(num1, num2) {
-  if (num1 > num2) {
-    console.log(num1 + "$" + " soni " + num2 + "$" + " sonidan katta");
-  } else {
-    console.log(num2 + "$" + " soni " + num1 + "$" + " sonidan katta");
-  }
-}
-
-SonnlarniKattasiniAniqlash(2000, 3000);
-
-var arr = [1, 2, 3, 4, 5];
-function AddToArray(arr, value) {
-  arr.push(value);
-  console.log(arr);
-}
-AddToArray(arr, 8);
+getLengths(stringList);
