@@ -1,49 +1,3 @@
-// var Shaxzod = "Salom Shaxzod";
-// // vareyble. bu variable o'zgaruvchidir. uni qayta o'zgartirish mumkin
-// let Samir = "Salom Samir";
-// // let o'zgaruvchi. uni qayta o'zgartirish mumkin
-// const Javohir = "Salom Javohir";
-// // const o'zgaruvchi. uni qayta o'zgartirish mumkin emas.
-// //  const o'zgaruvchisi faqat bir marta qiymat oladi va o'zgarmaydi
-
-// Shaxzod = "Salom Shaxzod 2";
-// Samir = "Salom Samir 2";
-// //Javohir = "Salom Javohir 2";
-// console.log(Shaxzod);
-// console.log(Samir);
-// console.log(Javohir);
-
-// // Boolian. true yoki false qiymat oladi
-
-// let bir = 11 == 10; //tengmi
-// let ikki = 12 > 15; // katta mi
-// let uch = 10 < 15; // kichkinami
-// let turt = 9 >= 10; // katta yoki tengmi
-// let besh = 11 <= 10; // kichkina yoki tengmi
-// let olti = "Salom" === "Salom";
-// // tengmi harfni katta kichikligiga qarab
-// let yetti = 10 != 10; // teng emasmi
-// console.log(bir); //true
-// console.log(ikki); //false
-// console.log(uch); //true
-// console.log(turt); //false
-// console.log(besh); //false
-// console.log(olti); //false
-// console.log(yetti); //false
-
-// //  agar bolsa shartni tekshirish uchun ishlatiladi.
-// //  agar shart to'g'ri bo'lsa, if ichidagi kod ishlaydi.
-// //   agar shart noto'g'ri bo'lsa, else ichidagi kod ishlaydi.
-// // else if shartni tekshirish uchun ishlatiladi.
-// // agar shart to'g'ri bo'lsa, else if ichidagi kod ishlaydi.
-// //  else if bi if dan keyin bir necha marta ishlatilishi mumkin.
-// if (10 == 11) {
-//   console.log("Shart to'g'ri");
-// } else if (10 == 12) {
-//   console.log("Shart to'g'ri 2");
-// } else {
-//   console.log("Shart noto'g'ri");
-// }
 // var son = 2;
 
 // function SonidarajasiniAniqlash(son) {
@@ -92,41 +46,41 @@
 // }
 // AddToArray(arr, 8);
 
-var stringList = ["Avazidin", "Salohiddin", "Surob", "Abdulboqi", "Javohir"];
+// var stringList = ["Avazidin", "Salohiddin", "Surob", "Abdulboqi", "Javohir"];
 
-function getLengths(stringList) {
-  let lengths = stringList.map((word) => word.length);
+// function getLengths(stringList) {
+//   let lengths = stringList.map((word) => word.length);
 
-  console.log(stringList[0] + ": " + lengths[0] + "ta harf bor");
-  console.log(stringList[1] + ": " + lengths[1] + "ta harf bor");
-  console.log(stringList[2] + ": " + lengths[2] + "ta harf bor");
-  console.log(stringList[3] + ": " + lengths[3] + "ta harf bor");
-  console.log(stringList[4] + ": " + lengths[4] + "ta harf bor");
-}
-getLengths(stringList);
+//   console.log(stringList[0] + ": " + lengths[0] + "ta harf bor");
+//   console.log(stringList[1] + ": " + lengths[1] + "ta harf bor");
+//   console.log(stringList[2] + ": " + lengths[2] + "ta harf bor");
+//   console.log(stringList[3] + ": " + lengths[3] + "ta harf bor");
+//   console.log(stringList[4] + ": " + lengths[4] + "ta harf bor");
+// }
+// getLengths(stringList);
 
-var soatlikHaq = 10;
-var ishSoati = 50;
+// var soatlikHaq = 10;
+// var ishSoati = 50;
 
-function calculateSalary(Soat, SoatlikHaq) {
-  if (Soat <= 40) {
-    return Soat * SoatlikHaq;
-  } else {
-    let odatiyTulov = 40 * SoatlikHaq;
-    let qushimchahaq = (Soat - 40) * SoatlikHaq * 1.5;
+// function calculateSalary(Soat, SoatlikHaq) {
+//   if (Soat <= 40) {
+//     return Soat * SoatlikHaq;
+//   } else {
+//     let odatiyTulov = 40 * SoatlikHaq;
+//     let qushimchahaq = (Soat - 40) * SoatlikHaq * 1.5;
 
-    return odatiyTulov + qushimchahaq;
-  }
-}
+//     return odatiyTulov + qushimchahaq;
+//   }
+// }
 
-console.log(calculateSalary(25, 10));
-console.log(calculateSalary(55, 10));
-console.log(calculateSalary(45, 10000));
+// console.log(calculateSalary(25, 10));
+// console.log(calculateSalary(55, 10));
+// console.log(calculateSalary(45, 10000));
 
-function stars(n) {
-  return "*".repeat(n);
-}
+// function stars(n) {
+//   return "*".repeat(n);
+// }
 
-console.log(stars(1)); // ***
-console.log(stars(10)); // *****
-console.log(stars(20)); // **********
+// console.log(stars(1)); // ***
+// console.log(stars(10)); // *****
+// console.log(stars(20)); // **********
