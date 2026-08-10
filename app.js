@@ -72,3 +72,22 @@ function SonidarajasiniAniqlash(son) {
   console.log("11-daraja: " + KDaraja);
 }
 SonidarajasiniAniqlash(3);
+
+var num1 = 10;
+var num2 = 20;
+function SonnlarniKattasiniAniqlash(num1, num2) {
+  if (num1 > num2) {
+    console.log(num1 + "$" + " soni " + num2 + "$" + " sonidan katta");
+  } else {
+    console.log(num2 + "$" + " soni " + num1 + "$" + " sonidan katta");
+  }
+}
+
+SonnlarniKattasiniAniqlash(2000, 3000);
+
+var arr = [1, 2, 3, 4, 5];
+function AddToArray(arr, value) {
+  arr.push(value);
+  console.log(arr);
+}
+AddToArray(arr, 8);
