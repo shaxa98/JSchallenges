@@ -104,3 +104,21 @@ function getLengths(stringList) {
   console.log(stringList[4] + ": " + lengths[4] + "ta harf bor");
 }
 getLengths(stringList);
+
+var soatlikHaq = 10;
+var ishSoati = 50;
+
+function calculateSalary(Soat, SoatlikHaq) {
+  if (Soat <= 40) {
+    return Soat * SoatlikHaq;
+  } else {
+    let odatiyTulov = 40 * SoatlikHaq;
+    let qushimchahaq = (Soat - 40) * SoatlikHaq * 1.5;
+
+    return odatiyTulov + qushimchahaq;
+  }
+}
+
+console.log(calculateSalary(25, 10));
+console.log(calculateSalary(55, 10));
+console.log(calculateSalary(45, 10000));
