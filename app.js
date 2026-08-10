@@ -122,3 +122,11 @@ function calculateSalary(Soat, SoatlikHaq) {
 console.log(calculateSalary(25, 10));
 console.log(calculateSalary(55, 10));
 console.log(calculateSalary(45, 10000));
+
+function stars(n) {
+  return "*".repeat(n);
+}
+
+console.log(stars(1)); // ***
+console.log(stars(10)); // *****
+console.log(stars(20)); // **********
