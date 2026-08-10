@@ -97,10 +97,10 @@ var stringList = ["Avazidin", "Salohiddin", "Surob", "Abdulboqi", "Javohir"];
 function getLengths(stringList) {
   let lengths = stringList.map((word) => word.length);
 
-  console.log(stringList[0] + ": " + lengths[0]);
-  console.log(stringList[1] + ": " + lengths[1]);
-  console.log(stringList[2] + ": " + lengths[2]);
-  console.log(stringList[3] + ": " + lengths[3]);
-  console.log(stringList[4] + ": " + lengths[4]);
+  console.log(stringList[0] + ": " + lengths[0] + "ta harf bor");
+  console.log(stringList[1] + ": " + lengths[1] + "ta harf bor");
+  console.log(stringList[2] + ": " + lengths[2] + "ta harf bor");
+  console.log(stringList[3] + ": " + lengths[3] + "ta harf bor");
+  console.log(stringList[4] + ": " + lengths[4] + "ta harf bor");
 }
 getLengths(stringList);
