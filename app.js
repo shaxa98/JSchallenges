@@ -47,27 +47,28 @@
 var son = 2;
 
 function SonidarajasiniAniqlash(son) {
-var 1Daraja = son * son;
-var 2Daraja = son * son * son;
-var 3Daraja = son * son * son * son;
-var 4Daraja = son * son * son * son * son;
-var 5Daraja = son * son * son * son * son * son;
-var 6Daraja = son * son * son * son * son * son * son;
-var 7Daraja = son * son * son * son * son * son * son * son;
-var 8Daraja = son * son * son * son * son * son * son * son * son;
-var 9Daraja = son * son * son * son * son * son * son * son * son * son;
-var 10Daraja = son * son * son * son * son * son * son * son * son * son * son;
+  var ADaraja = son;
+  var BDaraja = son * son;
+  var CDaraja = son * son * son;
+  var DDaraja = son * son * son * son;
+  var EDaraja = son * son * son * son * son;
+  var FDaraja = son * son * son * son * son * son;
+  var GDaraja = son * son * son * son * son * son * son;
+  var HDaraja = son * son * son * son * son * son * son * son;
+  var IDaraja = son * son * son * son * son * son * son * son * son;
+  var JDaraja = son * son * son * son * son * son * son * son * son * son;
+  var KDaraja = son * son * son * son * son * son * son * son * son * son * son;
 
-console.log("1-daraja: " + 1Daraja);
-console.log("2-daraja: " + 2Daraja);
-console.log("3-daraja: " + 3Daraja);
-console.log("4-daraja: " + 4Daraja);
-console.log("5-daraja: " + 5Daraja);
-console.log("6-daraja: " + 6Daraja);
-console.log("7-daraja: " + 7Daraja);
-console.log("8-daraja: " + 8Daraja);
-console.log("9-daraja: " + 9Daraja);
-console.log("10-daraja: " + 10Daraja);
-
+  console.log("1-daraja: " + ADaraja);
+  console.log("2-daraja: " + BDaraja);
+  console.log("3-daraja: " + CDaraja);
+  console.log("4-daraja: " + DDaraja);
+  console.log("5-daraja: " + EDaraja);
+  console.log("6-daraja: " + FDaraja);
+  console.log("7-daraja: " + GDaraja);
+  console.log("8-daraja: " + HDaraja);
+  console.log("9-daraja: " + IDaraja);
+  console.log("10-daraja: " + JDaraja);
+  console.log("11-daraja: " + KDaraja);
 }
- SonidarajasiniAniqlash(2);
+SonidarajasiniAniqlash(3);
