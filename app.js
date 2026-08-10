@@ -70,3 +70,4 @@ console.log("9-daraja: " + 9Daraja);
 console.log("10-daraja: " + 10Daraja);
 
 }
+ SonidarajasiniAniqlash(2);
