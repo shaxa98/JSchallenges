@@ -69,48 +69,82 @@
 // var blalar = ["Salohiddin", "Surob", "Abdulboqi", "Javohir"];
 // console.log(blalar[2]);
 
-var yosh = 20;
-if (yosh == 7) {
-  console.log("Birinchi Sinf");
-} else if (yosh == 8) {
-  console.log("Ikkinchi Sinf");
-} else if (yosh == 9) {
-  console.log("Uchinchi sinf");
-} else if (yosh == 10) {
-  console.log("To`rtinchi sinf");
-} else if (yosh == 11) {
-  console.log("Beshinchi Sinf");
-} else if (yosh == 12) {
-  console.log("Oltinchi Sinf");
-} else if (yosh == 13) {
-  console.log("Yettinchi Sinf");
-} else if (yosh == 14) {
-  console.log("Sakkizinchi Sinf");
-} else if (yosh == 15) {
-  console.log("To`qqizinchi Sinf");
-} else if (yosh == 16) {
-  console.log("O`ninchi Sinf");
-} else if (yosh == 17) {
-  console.log("O`nbirinchi Sinf");
-} else if (yosh < 7) {
-  console.log("Maktab Yoshiga yetmagan");
-} else {
-  console.log("Maktab yoshidan o`ttib ketgan");
-}
+// var yosh = 20;
+// if (yosh == 7) {
+//   console.log("Birinchi Sinf");
+// } else if (yosh == 8) {
+//   console.log("Ikkinchi Sinf");
+// } else if (yosh == 9) {
+//   console.log("Uchinchi sinf");
+// } else if (yosh == 10) {
+//   console.log("To`rtinchi sinf");
+// } else if (yosh == 11) {
+//   console.log("Beshinchi Sinf");
+// } else if (yosh == 12) {
+//   console.log("Oltinchi Sinf");
+// } else if (yosh == 13) {
+//   console.log("Yettinchi Sinf");
+// } else if (yosh == 14) {
+//   console.log("Sakkizinchi Sinf");
+// } else if (yosh == 15) {
+//   console.log("To`qqizinchi Sinf");
+// } else if (yosh == 16) {
+//   console.log("O`ninchi Sinf");
+// } else if (yosh == 17) {
+//   console.log("O`nbirinchi Sinf");
+// } else if (yosh < 7) {
+//   console.log("Maktab Yoshiga yetmagan");
+// } else {
+//   console.log("Maktab yoshidan o`ttib ketgan");
+// }
 
-let son = 7;
+// let son = 7;
 
-if (son % 2 === 0) {
-  console.log("Juft son");
-} else if (son % 2 === 1) {
-  console.log("Toq son");
-}
+// if (son % 2 === 0) {
+//   console.log("Juft son");
+// } else if (son % 2 === 1) {
+//   console.log("Toq son");
+// }
 
-let login = "admin";
-let password = "12345";
+// let login = "admin";
+// let password = "12345";
 
-if (login === "admin" && password === "12345") {
-  console.log("Kirish muvaffaqiyatli");
-} else {
-  console.log("Login yoki parol xato");
+// if (login === "admin" && password === "12345") {
+//   console.log("Kirish muvaffaqiyatli");
+// } else {
+//   console.log("Login yoki parol xato");
+// }
+
+// var raqam = 1; // Number
+// var harf = "A B C"; // String
+// var boolian = 10 == 10; // taqoslash boolian True/False
+// var array = [1, 2, 3, 4];
+// var array2 = ["A", "B", "C", "Anis"];
+
+// console.log(array2[3]);
+
+// if (10 == 11) {
+//   console.log(10 + " Teng " + 10);
+// } else if (20 > 30) {
+//   console.log(20 + " katta " + 15);
+// } else if (40 < 30) {
+//   console.log(40 + " katta " + 60);
+// } else {
+//   console.log("False");
+// }
+
+// let names = ["Ali", "Vali", "Hasan", "Husan"];
+
+// for (let i = 0; i < names.length; i++) {
+//     console.log(names[i]);
+// }
+
+// for (var i = 1; i <= 100; i++) {
+//   console.log(i);
+// }
+
+var Raqam = 15;
+
+for (var i = 1; i <= 10; i++) {
+  console.log(Raqam + " X " + i + " = " + Raqam * i);
 }
