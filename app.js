@@ -84,3 +84,11 @@
 // console.log(stars(1)); // ***
 // console.log(stars(10)); // *****
 // console.log(stars(20)); // **********
+var son = 1;
+function Juftvatoq(son) {
+  if (son % 2 == 0) {
+    console.log(son + " JuftSon");
+  } else {
+    console.log(son + " Toq son");
+  }
+}
