@@ -142,3 +142,13 @@ function PassOrFail(ball) {
   }
 }
 PassOrFail(ball);
+
+function teksirish(Nom) {
+  Nom = Nom.toLowerCase();
+  console.log(Nom[0] === Nom[Nom.length - 1]);
+}
+teksirish("Avaza");
+teksirish("Aziza");
+teksirish("Abdilboqia");
+teksirish("Salohiddins");
+teksirish("So`robs");
