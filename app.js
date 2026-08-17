@@ -84,11 +84,54 @@
 // console.log(stars(1)); // ***
 // console.log(stars(10)); // *****
 // console.log(stars(20)); // **********
-var son = 1;
-function Juftvatoq(son) {
-  if (son % 2 == 0) {
-    console.log(son + " JuftSon");
-  } else {
-    console.log(son + " Toq son");
-  }
-}
+// var son = 2;
+// function Juftvatoq(son) {
+//   if (son % 2 == 0) {
+//     console.log(son + " JuftSon");
+//   } else {
+//     console.log(son + " Toq son");
+//   }
+// }
+
+// Juftvatoq(4);
+
+// function Hammasiniqosh(num1, num2, num3) {
+//   var yigindi = num1 + num2 + num3;
+//   console.log(yigindi);
+// }
+
+// Hammasiniqosh(76, 97, 34);
+
+// function Avaz(num) {
+//   if (num > 5) {
+//     console.log(num + " 5dan katta");
+//   } else {
+//     console.log(num + " 5dan kichik");
+//   }
+// }
+
+// Avaz(3);
+// Avaz(6);
+// Avaz(8);
+
+// function AddListEnds(arr) {
+//   console.log(arr[0] + arr[arr.length - 1]);
+// }
+// let arr = [133, 2, 3, 4, 5, 6, 9, 30, 345];
+// AddListEnds(arr);
+
+// function ArrayniHammasi(sonlar) {
+//   //   let jami = (sonlar[0] + sonlar[sonlar.length - 1]) * (sonlar.length / 2);
+//   //   console.log(jami);
+//   let jami = 0;
+//   for (i = 0; sonlar.length <= i; i++) {
+//     jami += sonlar[i];
+//   }
+//   console.log(jami);
+// }
+// sonlar = [1, 2, 3, 4, 5, 6, 29];
+// ArrayniHammasi(sonlar);
+llll;
+var ball = 45;
+
+function PassOrFail(ball) {}
