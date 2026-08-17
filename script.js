@@ -143,8 +143,8 @@
 //   console.log(i);
 // }
 
-var Raqam = 15;
+// var Raqam = 15;
 
-for (var i = 1; i <= 10; i++) {
-  console.log(Raqam + " X " + i + " = " + Raqam * i);
-}
+// for (var i = 1; i <= 10; i++) {
+//   console.log(Raqam + " X " + i + " = " + Raqam * i);
+// }
