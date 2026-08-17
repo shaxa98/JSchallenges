@@ -132,26 +132,26 @@
 // sonlar = [1, 2, 3, 4, 5, 6, 29];
 // ArrayniHammasi(sonlar);
 
-var ball = 20;
+// var ball = 20;
 
-function PassOrFail(ball) {
-  if (ball > 40) {
-    console.log("Imtihondan O'tding");
-  } else {
-    console.log("Imtihondan Yiqilding");
-  }
-}
-PassOrFail(ball);
+// function PassOrFail(ball) {
+//   if (ball > 40) {
+//     console.log("Imtihondan O'tding");
+//   } else {
+//     console.log("Imtihondan Yiqilding");
+//   }
+// }
+// PassOrFail(ball);
 
-function teksirish(Nom) {
-  Nom = Nom.toLowerCase();
-  console.log(Nom[0] === Nom[Nom.length - 1]);
-}
-teksirish("Avaza");
-teksirish("Aziza");
-teksirish("Abdilboqia");
-teksirish("Salohiddins");
-teksirish("So`robs");
+// function teksirish(Nom) {
+//   Nom = Nom.toLowerCase();
+//   console.log(Nom[0] === Nom[Nom.length - 1]);
+// }
+// teksirish("Avaza");
+// teksirish("Aziza");
+// teksirish("Abdilboqia");
+// teksirish("Salohiddins");
+// teksirish("So`robs");
 
 function daraja(son) {
   let natija = 1;
@@ -163,5 +163,11 @@ function daraja(son) {
   return natija;
 }
 
+console.log(daraja(2));
 console.log(daraja(3));
+console.log(daraja(4));
 console.log(daraja(5));
+console.log(daraja(6));
+console.log(daraja(7));
+console.log(daraja(8));
+console.log(daraja(9));
