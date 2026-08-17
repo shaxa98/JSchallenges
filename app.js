@@ -152,3 +152,16 @@ teksirish("Aziza");
 teksirish("Abdilboqia");
 teksirish("Salohiddins");
 teksirish("So`robs");
+
+function daraja(son) {
+  let natija = 1;
+
+  for (let i = 1; i <= son; i++) {
+    natija = natija * son;
+  }
+
+  return natija;
+}
+
+console.log(daraja(3));
+console.log(daraja(5));
