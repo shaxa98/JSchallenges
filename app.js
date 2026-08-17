@@ -131,7 +131,14 @@
 // }
 // sonlar = [1, 2, 3, 4, 5, 6, 29];
 // ArrayniHammasi(sonlar);
-llll;
-var ball = 45;
 
-function PassOrFail(ball) {}
+var ball = 20;
+
+function PassOrFail(ball) {
+  if (ball > 40) {
+    console.log("Imtihondan O'tding");
+  } else {
+    console.log("Imtihondan Yiqilding");
+  }
+}
+PassOrFail(ball);
