@@ -179,10 +179,11 @@ for (let i = 1; i <= 10; i++) {
   natija = natija * son;
   console.log(son + " ni " + i + " Darajasi " + natija);
 }
-// JavaScript’dagi while — biror shart true bo’lib turgan vaqt davomida kodni qayta-qayta bajaradi.
+// JavaScript’dagi while — biror shart true bo’lib turgan vaqt
+// davomida kodni qayta-qayta bajaradi.
 
 let s = 1;
-while (1 <= 10) {
+while (s <= 10) {
   console.log(s);
   s++;
 }
