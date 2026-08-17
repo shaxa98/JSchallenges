@@ -153,21 +153,36 @@
 // teksirish("Salohiddins");
 // teksirish("So`robs");
 
-function daraja(son) {
-  let natija = 1;
+// function daraja(son) {
+//   let natija = 1;
 
-  for (let i = 1; i <= son; i++) {
-    natija = natija * son;
-  }
+//   for (let i = 1; i <= son; i++) {
+//     natija = natija * son;
+//   }
 
-  return natija;
+//   return natija;
+// }
+
+// console.log(daraja(2));
+// console.log(daraja(3));
+// console.log(daraja(4));
+// console.log(daraja(5));
+// console.log(daraja(6));
+// console.log(daraja(7));
+// console.log(daraja(8));
+// console.log(daraja(9));
+
+let son = 3;
+let natija = 1;
+
+for (let i = 1; i <= 10; i++) {
+  natija = natija * son;
+  console.log(son + " ni " + i + " Darajasi " + natija);
 }
+// JavaScript’dagi while — biror shart true bo’lib turgan vaqt davomida kodni qayta-qayta bajaradi.
 
-console.log(daraja(2));
-console.log(daraja(3));
-console.log(daraja(4));
-console.log(daraja(5));
-console.log(daraja(6));
-console.log(daraja(7));
-console.log(daraja(8));
-console.log(daraja(9));
+let s = 1;
+while (1 <= 10) {
+  console.log(s);
+  s++;
+}
