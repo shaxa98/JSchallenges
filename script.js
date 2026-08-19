@@ -149,17 +149,23 @@
 //   console.log(Raqam + " X " + i + " = " + Raqam * i);
 // }
 
-function Sekund(minut) {
-  console.log(minut + " bu " + minut * 60 + " sekundga teng!  ");
-}
-Sekund(5);
+// function Sekund(minut) {
+//   console.log(minut + " bu " + minut * 60 + " sekundga teng!  ");
+// }
+// Sekund(5);
 
-function Minut(soat) {
-  console.log(soat + " bu " + soat * 60 + " minutgaga teng!  ");
-}
-Minut(5);
+// function Minut(soat) {
+//   console.log(soat + " bu " + soat * 60 + " minutgaga teng!  ");
+// }
+// Minut(5);
 
-function Sutka(soat1) {
-  console.log(soat1 + " bu " + soat1 / 24 + " sutkaga teng!  ");
+// function Sutka(soat1) {
+//   console.log(soat1 + " bu " + soat1 / 24 + " sutkaga teng!  ");
+// }
+// Sutka(36);
+
+function GaplarniBirlashtirish(BirinchiGap, IkkinchiGap) {
+  return BirinchiGap + "  " + IkkinchiGap;
 }
-Sutka(36);
+
+console.log(GaplarniBirlashtirish("Salom ", "Bolajonlar! "));
