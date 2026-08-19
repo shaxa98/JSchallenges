@@ -205,3 +205,30 @@
 // // **********
 
 // console.log("*");
+
+// push()
+
+// arr.push(1);
+// arr.push(2);
+
+// let arr = [];
+// let i = 1;
+// while (i <= 1000) {
+//   arr.push(i);
+//   i++;
+// }
+// console.log(arr);
+let arr = [];
+let i = 1;
+while (i <= 15) {
+  arr.unshift(i);
+  i++;
+}
+console.log(arr);
+
+let Bola = ["Shaxruz", "Manucher", "Shaxzod", "Anis", "Samir"];
+console.log(Bola);
+console.log(Bola.pop());
+console.log(Bola);
+console.log(Bola.shift());
+console.log(Bola);
