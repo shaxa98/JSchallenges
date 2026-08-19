@@ -164,8 +164,35 @@
 // }
 // Sutka(36);
 
-function GaplarniBirlashtirish(BirinchiGap, IkkinchiGap) {
-  return BirinchiGap + "  " + IkkinchiGap;
+// function GaplarniBirlashtirish(BirinchiGap, IkkinchiGap) {
+//   return BirinchiGap + "  " + IkkinchiGap;
+// }
+
+// console.log(GaplarniBirlashtirish("Salom ", "Bolajonlar! "));
+
+// function Ikkibaravar(num) {
+//   return num * 2;
+// }
+// console.log(Ikkibaravar(23));
+
+// function IldizTopish(num) {
+//   return Math.sqrt(num);
+// }
+
+// console.log(IldizTopish(81));
+// console.log(IldizTopish(360));
+// console.log(IldizTopish(900));
+// console.log(IldizTopish(760));
+// console.log(IldizTopish(25));
+
+// 50 dan 100 50 ta ko'p
+let arr = [10, 20, 30, 40, 50, 100];
+function KattasoniTopish(arr) {
+  let katta = arr.sort((a, b) => b - a);
+  let son1 = katta[0];
+  let son2 = katta[1];
+  let son3 = son1 - son2;
+  console.log(son2 + " dan " + son1 + " " + son3 + " Ta Ko'p");
 }
 
-console.log(GaplarniBirlashtirish("Salom ", "Bolajonlar! "));
+KattasoniTopish(arr);
