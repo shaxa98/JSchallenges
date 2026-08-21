@@ -213,28 +213,47 @@
 // let search = "y";
 // // Abdulboyiyni ichida  y yo'q
 
-function harfTop(gap, harf) {
-  if (gap.includes(harf)) {
-    return `${gap} ichida ${harf} mavjud`;
-  } else {
-    return `${gap} ichida ${harf} mavjud emas`;
+// function harfTop(gap, harf) {
+//   if (gap.includes(harf)) {
+//     return `${gap} ichida ${harf} mavjud`;
+//   } else {
+//     return `${gap} ichida ${harf} mavjud emas`;
+//   }
+// }
+
+// console.log(harfTop("Abdulboqi", "u"));
+// console.log(harfTop("Avaziddin", "u"));
+// console.log(harfTop("So'rob", "q"));
+// console.log(harfTop("Salohiddin", "d"));
+
+// let birinchiSon = 65;
+// let ikkinchiSon = 90;
+
+// //  30 dan 90gach bo'lgan foiz bu 30%
+
+// function foizHisobla(son1, son2) {
+//   let foiz = ((son2 - son1) / son1) * 100;
+//   return son1 + " dan " + son2 + " gacha bo'lgan foiz bu " + foiz + "%";
+// }
+
+// console.log(foizHisobla(65, 90));
+// console.log(foizHisobla(80, 160));
+
+// let arr = [1, 2, 4, 5, 3, 6, 7, 2, 7, 6, 8];
+
+function JuftToq(arr) {
+  let Juft = [];
+  let Toq = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 0) {
+      Juft.push(arr[i]);
+    } else {
+      Toq.push(arr[i]);
+    }
   }
+  return [Juft, Toq];
 }
 
-console.log(harfTop("Abdulboqi", "u"));
-console.log(harfTop("Avaziddin", "u"));
-console.log(harfTop("So'rob", "q"));
-console.log(harfTop("Salohiddin", "d"));
-
-let birinchiSon = 65;
-let ikkinchiSon = 90;
-
-//  30 dan 90gach bo'lgan foiz bu 30%
-
-function foizHisobla(son1, son2) {
-  let foiz = ((son2 - son1) / son1) * 100;
-  return son1 + " dan " + son2 + " gacha bo'lgan foiz bu " + foiz + "%";
-}
-
-console.log(foizHisobla(65, 90));
-console.log(foizHisobla(80, 160));
+console.log(JuftToq([1, 2, 4, 5, 3, 6, 7, 2, 7, 6, 8]));
+// [2, 4, 2, 6, 8]
+// [ 1, 5, 3, 7, 7]
