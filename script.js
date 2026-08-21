@@ -241,19 +241,19 @@
 
 // let arr = [1, 2, 4, 5, 3, 6, 7, 2, 7, 6, 8];
 
-function JuftToq(arr) {
-  let Juft = [];
-  let Toq = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] % 2 === 0) {
-      Juft.push(arr[i]);
-    } else {
-      Toq.push(arr[i]);
-    }
-  }
-  return [Juft, Toq];
-}
+// function JuftToq(arr) {
+//   let Juft = [];
+//   let Toq = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] % 2 === 0) {
+//       Juft.push(arr[i]);
+//     } else {
+//       Toq.push(arr[i]);
+//     }
+//   }
+//   return [Juft, Toq];
+// }
 
-console.log(JuftToq([1, 2, 4, 5, 3, 6, 7, 2, 7, 6, 8]));
-// [2, 4, 2, 6, 8]
-// [ 1, 5, 3, 7, 7]
+// console.log(JuftToq([1, 2, 4, 5, 3, 6, 7, 2, 7, 6, 8]));
+// // [2, 4, 2, 6, 8]
+// // [ 1, 5, 3, 7, 7]

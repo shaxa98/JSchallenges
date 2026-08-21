@@ -232,3 +232,23 @@
 // console.log(Bola);
 // console.log(Bola.shift());
 // console.log(Bola);
+let arr = ["olma", "banan", "anor", "uzum"];
+
+arr.splice(1, 2);
+
+console.log(arr);
+
+let arr1 = [10, 20, 30, 40, 50];
+
+console.log(arr1.slice(2));
+
+let arr2 = [10, 20, 30, 40, 50];
+
+console.log(arr2.slice(-2));
+
+let arr3 = [1, 2, 3];
+let arr4 = [4, 5, 6];
+
+let result = arr3.concat(arr4);
+
+console.log(result);
