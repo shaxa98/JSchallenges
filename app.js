@@ -232,25 +232,33 @@
 // console.log(Bola);
 // console.log(Bola.shift());
 // console.log(Bola);
-let amptyarr = [];
-amptyarr.push("shaxzod");
-amptyarr.push("Manucher ");
-amptyarr.push("Samir");
-amptyarr.push("shaxruz");
-console.log(amptyarr);
-let pop = amptyarr.pop();
-console.log(amptyarr);
-console.log(pop);
-amptyarr.unshift("Begzod");
-console.log(amptyarr);
-amptyarr.shift();
-console.log(amptyarr);
+// let amptyarr = [];
+// amptyarr.push("shaxzod");
+// amptyarr.push("Manucher ");
+// amptyarr.push("Samir");
+// amptyarr.push("shaxruz");
+// console.log(amptyarr);
+// let pop = amptyarr.pop();
+// console.log(amptyarr);
+// console.log(pop);
+// amptyarr.unshift("Begzod");
+// console.log(amptyarr);
+// amptyarr.shift();
+// console.log(amptyarr);
 
-// let arr = ["olma", "banan", "anor", "uzum"];
+let arr = ["olma", "banan", "anor", "uzum", "nok"];
 
-// arr.splice(4);
+arr.splice(3);
 
-// console.log(arr);
+console.log(arr);
+
+arr.splice(2, 0, "Manucher");
+
+console.log(arr);
+
+arr.splice(1, 1, "Shaxruz");
+
+console.log(arr);
 
 // let arr1 = [10, 20, 30, 40, 50];
 
