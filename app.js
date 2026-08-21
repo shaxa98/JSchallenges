@@ -234,7 +234,7 @@
 // console.log(Bola);
 let arr = ["olma", "banan", "anor", "uzum"];
 
-arr.splice(1, 2);
+arr.splice(4);
 
 console.log(arr);
 
