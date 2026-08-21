@@ -246,31 +246,42 @@
 // amptyarr.shift();
 // console.log(amptyarr);
 
-let arr = ["olma", "banan", "anor", "uzum", "nok"];
+// let arr = ["olma", "banan", "anor", "uzum", "nok"];
 
-arr.splice(3);
+// arr.splice(3);
 
-console.log(arr);
+// console.log(arr);
 
-arr.splice(2, 0, "Manucher");
+// arr.splice(2, 0, "Manucher");
 
-console.log(arr);
+// console.log(arr);
 
-arr.splice(1, 1, "Shaxruz");
+// arr.splice(1, 1, "Shaxruz");
 
-console.log(arr);
+// console.log(arr);
 
 // let arr1 = [10, 20, 30, 40, 50];
 
-// console.log(arr1.slice(2));
+// let u = arr1.slice(2);
+// console.log(u);
+// console.log(arr1);
 
 // let arr2 = [10, 20, 30, 40, 50];
 
 // console.log(arr2.slice(-2));
 
-// let arr3 = [1, 2, 3];
-// let arr4 = [4, 5, 6];
+// let ism = "MANUCHER";
 
-// let result = arr3.concat(arr4);
+// console.log(ism.slice(0, 2));
+let arr3 = [1, 2, 3];
+let arr4 = [4, 5, 6];
 
-// console.log(result);
+let result = arr3.concat(arr4);
+
+console.log(result);
+
+let qizlar = ["Malika", "Masuda", "Sarvinoz", "Fotima", "Ruxshona"];
+let Bolalar = ["Manucher", "Daler", "Ramiz", "Shaxruz", "Tursun"];
+
+let hamma = qizlar.concat(Bolalar);
+console.log(hamma);
