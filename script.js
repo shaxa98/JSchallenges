@@ -196,3 +196,15 @@
 // }
 
 // KattasoniTopish(arr);
+
+// [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// Bu yerda 9 ta son bor
+
+function arraygaAjrat(son) {
+  return String(son).split("").map(Number);
+}
+
+let son = 123456789;
+let natija = arraygaAjrat(son);
+console.log(natija);
+console.log("Sonlar soni:", natija.length);
