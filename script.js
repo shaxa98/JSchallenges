@@ -186,13 +186,13 @@
 // console.log(IldizTopish(25));
 
 // 50 dan 100 50 ta ko'p
-let arr = [10, 20, 30, 40, 50, 100];
-function KattasoniTopish(arr) {
-  let katta = arr.sort((a, b) => b - a);
-  let son1 = katta[0];
-  let son2 = katta[1];
-  let son3 = son1 - son2;
-  console.log(son2 + " dan " + son1 + " " + son3 + " Ta Ko'p");
-}
+// let arr = [10, 20, 30, 40, 50, 100];
+// function KattasoniTopish(arr) {
+//   let katta = arr.sort((a, b) => b - a);
+//   let son1 = katta[0];
+//   let son2 = katta[1];
+//   let son3 = son1 - son2;
+//   console.log(son2 + " dan " + son1 + " " + son3 + " Ta Ko'p");
+// }
 
-KattasoniTopish(arr);
+// KattasoniTopish(arr);
