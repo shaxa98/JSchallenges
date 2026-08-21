@@ -225,3 +225,16 @@ console.log(harfTop("Abdulboqi", "u"));
 console.log(harfTop("Avaziddin", "u"));
 console.log(harfTop("So'rob", "q"));
 console.log(harfTop("Salohiddin", "d"));
+
+let birinchiSon = 65;
+let ikkinchiSon = 90;
+
+//  30 dan 90gach bo'lgan foiz bu 30%
+
+function foizHisobla(son1, son2) {
+  let foiz = ((son2 - son1) / son1) * 100;
+  return son1 + " dan " + son2 + " gacha bo'lgan foiz bu " + foiz + "%";
+}
+
+console.log(foizHisobla(65, 90));
+console.log(foizHisobla(80, 160));
