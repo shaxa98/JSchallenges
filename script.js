@@ -200,11 +200,28 @@
 // [1, 2, 3, 4, 5, 6, 7, 8, 9]
 // Bu yerda 9 ta son bor
 
-function arraygaAjrat(son) {
-  return String(son).split("").map(Number);
+// function arraygaAjrat(son) {
+//   return String(son).split("").map(Number);
+// }
+
+// let son = 123456789881234;
+// let natija = arraygaAjrat(son);
+// console.log(natija);
+// console.log("Bu Yera ", natija.length, "ta son bor");
+
+// let str = "Abdulboqi";
+// let search = "y";
+// // Abdulboyiyni ichida  y yo'q
+
+function harfTop(gap, harf) {
+  if (gap.includes(harf)) {
+    return `${gap} ichida ${harf} mavjud`;
+  } else {
+    return `${gap} ichida ${harf} mavjud emas`;
+  }
 }
 
-let son = 123456789;
-let natija = arraygaAjrat(son);
-console.log(natija);
-console.log("Sonlar soni:", natija.length);
+console.log(harfTop("Abdulboqi", "u"));
+console.log(harfTop("Avaziddin", "u"));
+console.log(harfTop("So'rob", "q"));
+console.log(harfTop("Salohiddin", "d"));
