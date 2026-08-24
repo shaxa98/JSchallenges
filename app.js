@@ -280,8 +280,31 @@
 
 // console.log(result);
 
-// let qizlar = ["Malika", "Masuda", "Sarvinoz", "Fotima", "Ruxshona"];
-// let Bolalar = ["Manucher", "Daler", "Ramiz", "Shaxruz", "Tursun"];
+let qizlar = ["Malika", "Masuda", "Sarvinoz", "Fotima", "Ruxshona"];
+let Bolalar = ["Manucher", "Daler", "Ramiz", "Shaxruz", "Tursun"];
 
 // let hamma = qizlar.concat(Bolalar);
 // console.log(hamma);
+
+// let sonlar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let sonlar = ["Manucher", "Masud", "Sarvinoz", "Samir", "Bexruz"];
+
+sonlar.forEach((son) => {
+  console.log(" Salom " + son);
+});
+
+let ismlar = ["Ali", "Vali", "Sardor"];
+
+let natija = ismlar.map((ism) => {
+  return ism + " aka";
+});
+
+console.log(natija);
+
+let Arr = [10, 20, 30, 40, 50];
+
+Arr.splice(1, 1, 25); // 20 -> 25
+Arr.splice(2, 0, 40, 45); // 40 va 45 qo‘shiladi
+Arr.splice(4, 1); // ortiqcha 40 ni o‘chirish
+
+console.log(Arr);
