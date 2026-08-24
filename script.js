@@ -258,5 +258,38 @@
 // // [2, 4, 2, 6, 8]
 // // [ 1, 5, 3, 7, 7]
 
-var num = 12345;
-// 1-2-3-4-5
+// var Surob = 1234567890;
+// // 1-2-3-4-5
+
+// function sonUrtasigaQush(son) {
+//   return String(son).split("").join("-");
+// }
+
+// console.log(sonUrtasigaQush(Surob));
+
+// let arr = [50, 60, 80, 70, 90];
+
+// function ortacha(arr) {
+//   let summa = 0;
+
+//   for (let i = 0; i < arr.length; i++) {
+//     summa += arr[i];
+//   }
+
+//   return summa / arr.length;
+// }
+
+// console.log(ortacha([30, 60, 50, 80, 90]));
+// console.log(ortacha([45, 67, 90, 78, 100]));
+
+function kvadratlarYigindisi(n) {
+  let summa = 0;
+
+  for (let i = 1; i <= n; i++) {
+    summa += i * i;
+  }
+
+  return summa;
+}
+
+console.log(kvadratlarYigindisi(7));
