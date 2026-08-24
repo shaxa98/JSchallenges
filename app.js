@@ -280,32 +280,32 @@
 
 // console.log(result);
 
-let qizlar = ["Malika", "Masuda", "Sarvinoz", "Fotima", "Ruxshona"];
-let Bolalar = ["Manucher", "Daler", "Ramiz", "Shaxruz", "Tursun"];
+// let qizlar = ["Malika", "Masuda", "Sarvinoz", "Fotima", "Ruxshona"];
+// let Bolalar = ["Manucher", "Daler", "Ramiz", "Shaxruz", "Tursun"];
 
 // let hamma = qizlar.concat(Bolalar);
 // console.log(hamma);
 
 // let sonlar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let sonlar = ["Manucher", "Masud", "Sarvinoz", "Samir", "Bexruz"];
+// let sonlar = ["Manucher", "Masud", "Sarvinoz", "Samir", "Bexruz"];
 
-sonlar.forEach((son) => {
-  console.log(" Salom " + son);
-});
+// sonlar.forEach((son) => {
+//   console.log(" Salom " + son);
+// });
 
-let ismlar = ["Ali", "Vali", "Sardor", "Shaxruz"];
+// let ismlar = ["Ali", "Vali", "Sardor", "Shaxruz"];
 
-let natija = ismlar.map((ism) => {
-  return ism + " Aka ";
-});
+// let natija = ismlar.map((ism) => {
+//   return ism + " Aka ";
+// });
 
-console.log(natija);
+// console.log(natija);
 
-let sonlar1 = [1, 2, 3, 4, 5];
+// let sonlar1 = [1, 2, 3, 4, 5];
 
-let natija1 = sonlar1.map((son) => {
-  return son * 2;
-});
+// let natija1 = sonlar1.map((son) => {
+//   return son * 2;
+// });
 
 // console.log(natija1);
 
@@ -329,3 +329,18 @@ let toq = sonlar2.filter((son) => {
 
 console.log(juft);
 console.log(toq);
+
+let sonlar3 = [10, 20, 30, 40, 50, 80];
+
+let summa = sonlar3.reduce((yigindi, son) => {
+  return yigindi + son;
+}, 0);
+
+console.log(summa);
+let sonlar4 = [15, 7, 32, 4, 25, 88, 230];
+
+let katta = sonlar4.reduce((max, son) => {
+  return son > max ? son : max;
+}, sonlar4[0]);
+
+console.log(katta);
