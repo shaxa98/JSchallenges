@@ -282,14 +282,14 @@
 // console.log(ortacha([30, 60, 50, 80, 90]));
 // console.log(ortacha([45, 67, 90, 78, 100]));
 
-function kvadratlarYigindisi(n) {
-  let summa = 0;
+// function kvadratlarYigindisi(n) {
+//   let summa = 0;
 
-  for (let i = 1; i <= n; i++) {
-    summa += i * i;
-  }
+//   for (let i = 1; i <= n; i++) {
+//     summa += i * i;
+//   }
 
-  return summa;
-}
+//   return summa;
+// }
 
-console.log(kvadratlarYigindisi(7));
+// console.log(kvadratlarYigindisi(7));
