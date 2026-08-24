@@ -293,18 +293,39 @@ sonlar.forEach((son) => {
   console.log(" Salom " + son);
 });
 
-let ismlar = ["Ali", "Vali", "Sardor"];
+let ismlar = ["Ali", "Vali", "Sardor", "Shaxruz"];
 
 let natija = ismlar.map((ism) => {
-  return ism + " aka";
+  return ism + " Aka ";
 });
 
 console.log(natija);
 
-let Arr = [10, 20, 30, 40, 50];
+let sonlar1 = [1, 2, 3, 4, 5];
 
-Arr.splice(1, 1, 25); // 20 -> 25
-Arr.splice(2, 0, 40, 45); // 40 va 45 qo‘shiladi
-Arr.splice(4, 1); // ortiqcha 40 ni o‘chirish
+let natija1 = sonlar1.map((son) => {
+  return son * 2;
+});
 
-console.log(Arr);
+// console.log(natija1);
+
+// let Arr = [10, 20, 30, 40, 50];
+
+// Arr.splice(1, 1, 25); // 20 -> 25
+// Arr.splice(2, 0, 40, 45); // 40 va 45 qo‘shiladi
+// Arr.splice(4, 1); // ortiqcha 40 ni o‘chirish
+
+// console.log(Arr);
+let sonlar2 = [
+  1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+];
+
+let juft = sonlar2.filter((son) => {
+  return son % 2 === 0;
+});
+let toq = sonlar2.filter((son) => {
+  return son % 2 === 1;
+});
+
+console.log(juft);
+console.log(toq);
