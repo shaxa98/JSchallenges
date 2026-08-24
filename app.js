@@ -273,15 +273,15 @@
 // let ism = "MANUCHER";
 
 // console.log(ism.slice(0, 2));
-let arr3 = [1, 2, 3];
-let arr4 = [4, 5, 6];
+// let arr3 = [1, 2, 3];
+// let arr4 = [4, 5, 6];
 
-let result = arr3.concat(arr4);
+// let result = arr3.concat(arr4);
 
-console.log(result);
+// console.log(result);
 
-let qizlar = ["Malika", "Masuda", "Sarvinoz", "Fotima", "Ruxshona"];
-let Bolalar = ["Manucher", "Daler", "Ramiz", "Shaxruz", "Tursun"];
+// let qizlar = ["Malika", "Masuda", "Sarvinoz", "Fotima", "Ruxshona"];
+// let Bolalar = ["Manucher", "Daler", "Ramiz", "Shaxruz", "Tursun"];
 
-let hamma = qizlar.concat(Bolalar);
-console.log(hamma);
+// let hamma = qizlar.concat(Bolalar);
+// console.log(hamma);
