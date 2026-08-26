@@ -293,3 +293,4 @@
 // }
 
 // console.log(kvadratlarYigindisi(7));
+12345;
