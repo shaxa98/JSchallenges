@@ -293,4 +293,3 @@
 // }
 
 // console.log(kvadratlarYigindisi(7));
-`1234`;
