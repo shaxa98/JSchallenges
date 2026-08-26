@@ -316,31 +316,31 @@
 // Arr.splice(4, 1); // ortiqcha 40 ni o‘chirish
 
 // console.log(Arr);
-let sonlar2 = [
-  1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
-];
+// let sonlar2 = [
+//   1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+// ];
 
-let juft = sonlar2.filter((son) => {
-  return son % 2 === 0;
-});
-let toq = sonlar2.filter((son) => {
-  return son % 2 === 1;
-});
+// let juft = sonlar2.filter((son) => {
+//   return son % 2 === 0;
+// });
+// let toq = sonlar2.filter((son) => {
+//   return son % 2 === 1;
+// });
 
-console.log(juft);
-console.log(toq);
+// console.log(juft);
+// console.log(toq);
 
-let sonlar3 = [10, 20, 30, 40, 50, 80];
+// let sonlar3 = [10, 20, 30, 40, 50, 80];
 
-let summa = sonlar3.reduce((yigindi, son) => {
-  return yigindi + son;
-}, 0);
+// let summa = sonlar3.reduce((yigindi, son) => {
+//   return yigindi + son;
+// }, 0);
 
-console.log(summa);
-let sonlar4 = [15, 7, 32, 4, 25, 88, 230];
+// console.log(summa);
+// let sonlar4 = [15, 7, 32, 4, 25, 88, 230];
 
-let katta = sonlar4.reduce((max, son) => {
-  return son > max ? son : max;
-}, sonlar4[0]);
+// let katta = sonlar4.reduce((max, son) => {
+//   return son > max ? son : max;
+// }, sonlar4[0]);
 
-console.log(katta);
+// console.log(katta);
