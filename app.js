@@ -344,3 +344,49 @@
 // }, sonlar4[0]);
 
 // console.log(katta);
+let mevalar = ["olma", "anor", "banan", "uzum", "shaxzod", "Manucher"];
+
+console.log(mevalar.indexOf("shaxzod"));
+console.log(mevalar.indexOf("Manucher"));
+console.log(mevalar.indexOf("Masuda"));
+console.log(mevalar.includes("banan"));
+console.log(mevalar.includes("Samir"));
+console.log(mevalar.includes("Shaxruz"));
+
+let sonlar = [2, 8, 5, 20, 4, 70, 80, 90, 96];
+
+let natija = sonlar.find(function (son) {
+  return son < 100;
+});
+
+console.log(natija);
+let natija2 = sonlar.findIndex((son) => son > 10);
+
+console.log(natija2);
+let natija3 = sonlar.every((son) => son % 2 === 0);
+
+console.log(natija3);
+let natija4 = sonlar.some((son) => son % 2 !== 0);
+
+console.log(natija4);
+
+let Bolalar = [
+  "Shaxzod",
+  "Samir",
+  "Masuda",
+  "Sarvinoz",
+  "Manucher",
+  "Samir2",
+  "Anis",
+];
+
+Bolalar.sort();
+console.log(Bolalar);
+Bolalar.reverse();
+console.log(Bolalar);
+
+let sonlar1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+sonlar1.reverse();
+
+console.log(sonlar1);
